@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GualotunaAngelTareaS2.inicio">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="LightGray" Padding="20" CornerRadius="0">
+                <Label Text="!!!!!SISTEMA DE CALIFIACION UNIVERSIDAD ISRAEL!!!!" HorizontalTextAlignment="Center" TextColor="DarkCyan" FontSize="18"/>
+            </Frame>
+
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese su Usuario"/>
+            <Entry x:Name="txtClave" Placeholder="Ingrese la Clave" IsPassword="True"/>
+
+            <Button x:Name="btnAcceder" Text="Acceder" Clicked="btnAcceder_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
